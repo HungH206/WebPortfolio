@@ -51,8 +51,7 @@ export default function AboutPage() {
           frameworks while working on projects that solve real-world problems.
         </p>
         <p className="text-xl">
-          I'm also pursuing an Associate's degree in Computer Science from Seattle Central College, where I've been
-          actively involved in the Programming Club and Phi Theta Kappa Honor Society.
+          I'm also graduated with an Associate's Degree in Computer Science from Seattle Central College.
         </p>
       </div>
 
