@@ -9,9 +9,7 @@ export default function Page() {
         {/* Text Content */}
         <div className="w-1/2 pr-8">
           <h1 className="text-7xl font-bold leading-tight mb-8">
-            Hello World,
-            <br />
-            it's Hung!
+            Hello World!
           </h1>
           <p className="text-xl">
             My name is Hung Hoang, and I'm in Junior year at University of Houston with a passion for software
