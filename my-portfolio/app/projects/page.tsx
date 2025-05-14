@@ -15,7 +15,7 @@ export default function ProjectsPage() {
       ],
       date: "December 2024 - January 2025",
       github: "https://github.com/HungH206/StudyWellAI-Project",
-      demo: "#",
+      demo: "https://devpost.com/software/studiwell",
       achievement: "Best Use of VS Code Extensions Award",
     },
     {
