@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Home, User, Folder, Briefcase, Award, MessageSquare, Linkedin, Github } from "lucide-react"
 import { Button } from "../components/ui/button"
 
@@ -12,14 +13,14 @@ export default function Page() {
             Hello World!
           </h1>
           <p className="text-xl">
-            My name is Hung Hoang, and I'm in Junior year at University of Houston with a passion for software
+            My name is Hung Hoang, a Junior Computer Science Student at University of Houston with a passion for software
             development, machine learning, and creating impactful applications.
           </p>
         </div>
 
         {/* Profile Image */}
         <div className="w-1/2 flex justify-center items-start">
-          <div className="w-80 h-80 bg-[#e5e5e5] rounded-full"></div>
+          <Image src="/HungHoang.jpg" alt="Profile Image" width={320} height={320} className="rounded-full" />
         </div>
       </div>
 

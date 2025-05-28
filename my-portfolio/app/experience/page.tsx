@@ -6,7 +6,7 @@ export default function ExperiencePage() {
       degree: "B.S., Computer Science",
       institution: "University of Houston",
       location: "Houston, TX",
-      period: "Graduating May 2027",
+      period: "Aug 2024 - May 2027",
       details: [
         "College of Natural Sciences and Mathematics",
         "Relevant coursework: Intro to Programming (C++), Discrete Math, Data Structures and Algorithms with C++",
@@ -16,7 +16,7 @@ export default function ExperiencePage() {
       degree: "A.S., Computer Science",
       institution: "Seattle Central College",
       location: "Seattle, WA",
-      period: "Graduating 2024",
+      period: "2022-2024",
       details: [
         "Department of Natural Sciences and Mathematics",
         "Relevant coursework: Intro to Programming (Python), Computer Programming I and II (Java), Database Development (SQL)",
@@ -29,7 +29,7 @@ export default function ExperiencePage() {
       position: "Student Volunteer",
       organization: "University District Food Bank",
       location: "Seattle, WA",
-      period: "October 2023 - August 2024",
+      period: "Oct 2023 - Aug 2024",
       details: [
         "Volunteered 86 hours managing check-ins and distributing groceries, improving service efficiency by 50%.",
         "The streamlined registration process reduces customers' wait time by 50%.",
