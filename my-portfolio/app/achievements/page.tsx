@@ -21,7 +21,7 @@ export default function AchievementsPage() {
 
   return (
     <div className="p-16">
-      <h1 className="text-5xl font-bold mb-8">Achievements</h1>
+      <h1 className="text-5xl font-bold mb-8">Awards</h1>
 
       <div className="space-y-8">
         {achievements.map((achievement, index) => (

@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
-          <div className="flex h-screen">
+          <div className="flex flex-col md:flex-row h-screen">
             <Sidebar />
             <main className="flex-1 bg-[#dff0d0] overflow-auto">{children}</main>
           </div>
@@ -29,4 +29,3 @@ export default function RootLayout({
     </html>
   )
 }
-

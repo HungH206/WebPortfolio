@@ -12,35 +12,44 @@ export default function Sidebar() {
   }
 
   return (
-    <div className="w-24 bg-[#f5e9c9] flex flex-col items-center py-8 space-y-8 shrink-0">
-      <Link href="/" className={`p-3 hover:bg-[#e8dbb8] rounded-lg transition-colors ${isActive("/")}`}>
-        <Home className="w-6 h-6" />
+    <div className="w-full md:w-24 h-16 md:h-auto bg-[#f5e9c9] flex flex-row md:flex-col items-center justify-around md:justify-start md:py-8 md:space-y-8 shrink-0">
+      <Link href="/" className={`p-2 md:p-3 hover:bg-[#e8dbb8] rounded-lg transition-colors ${isActive("/")}`}>
+        <Home className="w-5 h-5 md:w-6 md:h-6" />
         <span className="sr-only">Home</span>
       </Link>
-    <Link href="/about" className={`p-3 hover:bg-[#e8dbb8] rounded-lg transition-colors ${isActive("/about")}`}>
-      <User className="w-6 h-6" />
-      <span className="sr-only">About</span>
-    </Link>
-      <Link href="/projects" className={`p-3 hover:bg-[#e8dbb8] rounded-lg transition-colors ${isActive("/projects")}`}>
-        <Folder className="w-6 h-6" />
+      <Link
+        href="/about"
+        className={`p-2 md:p-3 hover:bg-[#e8dbb8] rounded-lg transition-colors ${isActive("/about")}`}
+      >
+        <User className="w-5 h-5 md:w-6 md:h-6" />
+        <span className="sr-only">About</span>
+      </Link>
+      <Link
+        href="/projects"
+        className={`p-2 md:p-3 hover:bg-[#e8dbb8] rounded-lg transition-colors ${isActive("/projects")}`}
+      >
+        <Folder className="w-5 h-5 md:w-6 md:h-6" />
         <span className="sr-only">Projects</span>
       </Link>
       <Link
         href="/experience"
-        className={`p-3 hover:bg-[#e8dbb8] rounded-lg transition-colors ${isActive("/experience")}`}
+        className={`p-2 md:p-3 hover:bg-[#e8dbb8] rounded-lg transition-colors ${isActive("/experience")}`}
       >
-        <Briefcase className="w-6 h-6" />
+        <Briefcase className="w-5 h-5 md:w-6 md:h-6" />
         <span className="sr-only">Experience</span>
       </Link>
       <Link
         href="/achievements"
-        className={`p-3 hover:bg-[#e8dbb8] rounded-lg transition-colors ${isActive("/achievements")}`}
+        className={`p-2 md:p-3 hover:bg-[#e8dbb8] rounded-lg transition-colors ${isActive("/achievements")}`}
       >
-        <Award className="w-6 h-6" />
+        <Award className="w-5 h-5 md:w-6 md:h-6" />
         <span className="sr-only">Achievements</span>
       </Link>
-      <Link href="/contact" className={`p-3 hover:bg-[#e8dbb8] rounded-lg transition-colors ${isActive("/contact")}`}>
-        <MessageSquare className="w-6 h-6" />
+      <Link
+        href="/contact"
+        className={`p-2 md:p-3 hover:bg-[#e8dbb8] rounded-lg transition-colors ${isActive("/contact")}`}
+      >
+        <MessageSquare className="w-5 h-5 md:w-6 md:h-6" />
         <span className="sr-only">Contact</span>
       </Link>
     </div>
