@@ -26,7 +26,7 @@ export default function ProjectsPage() {
         "Designed an algorithm that improved game recommendation by 50% based on user preferences and interactions.",
       ],
       date: "November 2024",
-      github: "https://github.com/HungH206/PixelPal",
+      github: "https://github.com/mayrawuzhere/PixelPal",
       demo: "#",
     },
     {
@@ -35,10 +35,11 @@ export default function ProjectsPage() {
         "A healthcare web app that focuses on prioritizing patient care with React, JavaScript, PostgreSQL, and Auth0.",
       details: [
         "Collaborated in a team of four to compete in HackRice 14 at Rice University.",
+        "Implement a backend database system to track patient information and level of risks.",
         "Improved 50% nurse-doctor communication, and increased response efficiency by 90%.",
       ],
       date: "September 2024",
-      github: "https://github.com/HungH206",
+      github: "https://github.com/Izaan-Khalid/DoctorsOrders",
       demo: "#",
     },
   ]
