@@ -17,7 +17,7 @@ export default function ProjectsPage() {
       date: "May - June 2025",
       github: "https://github.com/HungH206/StudiWell",
       demo: "#",
-      image: "/CareConnect.png?height=100&width=200",
+      image: "/Careconnect.png?height=100&width=200",
     },
     {
       title: "StudiWell",
