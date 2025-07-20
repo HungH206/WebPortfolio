@@ -10,6 +10,8 @@ export default function ExperiencePage() {
       details: [
         "College of Natural Sciences and Mathematics",
         "Relevant coursework: Intro to Programming (C++), Discrete Math, Data Structures and Algorithms with C++",
+        "Active member of Society of Hispanic Professional Engineers (SHPE) at UH and CodePath",
+        "Participated in Hackathons: HackTX 24, HackRice 14, and Accelerated App Development With Github Copilot Hackathon",
       ],
     },
     {
@@ -25,6 +27,15 @@ export default function ExperiencePage() {
   ]
 
   const experience = [
+    {
+      position: "Student Service Worker",
+      organization: "University Of Houston Dining Services",
+      location: "Houston, TX",
+      period: "Aug 2025",
+      details: [
+        "More detail about the role and responsibilities comming soon.",
+      ],
+    },
     {
       position: "Student Volunteer",
       organization: "University District Food Bank",
