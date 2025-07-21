@@ -17,8 +17,8 @@ export default function ProjectsPage() {
         "Improve 70% connectivity for Zoom calls with 4G support, and 80% support for AI Health Assistance.",
       ],
       date: "May - June 2025",
-      github: "https://github.com/HungH206/StudiWell",
-      demo: "#",
+      github: "https://github.com/HungH206/CareConnectAI",
+      demo: "https://care-connect-ai.vercel.app/",
       image: "/Careconnect.png?height=100&width=200",
     },
     {
@@ -31,8 +31,8 @@ export default function ProjectsPage() {
         "Developed with Azure AI, HTML, Tailwind, CSS, JavaScript, Python, and Node.js."
       ],
       date: "December 2024 - January 2025",
-      github: "https://github.com/HungH206/StudiWell",
-      demo: "#",
+      github: "https://github.com/HungH206/StudyWellAI-Project",
+      demo: "https://studiwellaiauth0.web.app/",
       achievement: "Best Use of VS Code Extensions Award",
       image: "/studiwell.png?height=100&width=200",
     },
@@ -57,8 +57,8 @@ export default function ProjectsPage() {
         "Improved 50% nurse-doctor communication, and increased response efficiency by 90%.",
       ],
       date: "September 2024",
-      github: "https://github.com/HungH206/HospiTalk",
-      demo: "#",
+      github: "https://github.com/Izaan-Khalid/DoctorsOrders",
+      demo: "https://doctors-orders-eight.vercel.app/",
       image: "/Hospitalk.png?height=100&width=200",
     },
     {
