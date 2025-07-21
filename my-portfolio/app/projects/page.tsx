@@ -12,7 +12,9 @@ export default function ProjectsPage() {
         "A healthcare IOT web app developed with AWS Bedrock with Pinecone Knowledge Base, Anthropic's Claude 3.5 Haiku Model, React, TypeScript, Python, Firebase, Zoom API and Vercel Web Host.",
       details: [
         "This healthcare platform aims to connect patients with their health provider, track health progress with AI Health Assistant Support, and easily schedule appointments.",
-        "Features: AI Health Assistant with Claude 3.5 Haiku, Care Team Platform with Zoom Video Call and Twilio Message, schedule visits for your appointments, report tracker with summarized detail, and IOT Health Vitals tracking.",
+        "Main Features: AI Health Assistant with Claude 3.5 Haiku, Care Team Platform with Zoom Video Call and Twilio Message.",
+        "Other Features: Schedule visits for your appointments, report tracker with summarized detail, and IOT Health Vitals tracking.",
+        "Improve 70% connectivity for Zoom calls with 4G support, and 80% support for AI Health Assistance.",
       ],
       date: "May - June 2025",
       github: "https://github.com/HungH206/StudiWell",
@@ -22,10 +24,11 @@ export default function ProjectsPage() {
     {
       title: "StudiWell",
       description:
-        "An education web app developed with Azure AI, HTML, Tailwind, CSS, JavaScript, Python, and Node.js.",
+        "An education web app that enhance learning performance and mental health support, submitted to Accelerated App Development With Github Copilot Hackathon.",
       details: [
         "Enhance health and learning performance by 70%, developing better mental health, productivity and learning habits.",
         "Features: AI Study Assistant with Phi-3 Mini, personalized Mental Health Tracker, Companion Hub for Specialist advising, and Management Hub for task tracking.",
+        "Developed with Azure AI, HTML, Tailwind, CSS, JavaScript, Python, and Node.js."
       ],
       date: "December 2024 - January 2025",
       github: "https://github.com/HungH206/StudiWell",
@@ -63,18 +66,26 @@ export default function ProjectsPage() {
       description: "A low-cost early weather detection system using a Micro:bit hardware kit and JavaScript. Project not availible on Github.",
       details: [
         "Led a 3-member team to compete in North Seattle College Summer 2024 Hackathon.",
-        "Improved weather detection accuracy by 15% and resource access by 30%, enhancing disaster preparedness.",
+        "Improved weather detection accuracy by 15% and resource access by 30%, enhancing disaster preparedness by 50%.",
       ],
       date: "July 2024",
       github: "https://github.com/HungH206/EWDS",
       demo: "#",
+      achievement: "3rd Place Winner at North Seattle College Summer 2024 Hackathon",
       image: "/Codingaction.png?height=100&width=200",
     },
   ]
 
   return (
     <div className="p-4 sm:p-8 md:p-16">
+      {/* Main Heading - Responsive font size */}
       <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8">Projects</h1>
+
+      <div className="mb-12">
+        <p className="text-xl mb-6">
+          These are some of the projects I've worked on during my studies and personal time.
+        </p>
+      </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         {projects.map((project, index) => (

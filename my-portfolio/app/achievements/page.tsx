@@ -12,11 +12,18 @@ export default function AchievementsPage() {
         "Recognized for innovative use of VS Code extensions in developing the StudiWell education platform.",
     },
     {
+      title: "3rd Place Winner",
+      event: "North Seattle College Summer 2024 Hackathon",
+      date: "July 2024",
+      description: "Our team developed an Early Weather Detection System (EDWS) that won 3rd place in the competition.",
+    },
+    {
       title: "Phi Theta Kappa Honor Society Member",
       event: "Seattle Central College",
       date: "March 2023 - August 2024",
       description: "Selected for academic excellence and leadership potential.",
     },
+    
   ]
 
   return (

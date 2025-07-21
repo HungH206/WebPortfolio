@@ -22,6 +22,8 @@ export default function ExperiencePage() {
       details: [
         "Department of Natural Sciences and Mathematics",
         "Relevant coursework: Intro to Programming (Python), Computer Programming I and II (Java), Database Development (SQL)",
+        "Member of the Seattle Central's Computer Science Club, Phi Theta Kappa Honor Society, MESA.",
+        "Participated in NSC Summer 2024 Hackathon and won 3rd place with Early Weather Detection System (EDWS) project.",
       ],
     },
   ]
@@ -33,7 +35,7 @@ export default function ExperiencePage() {
       location: "Houston, TX",
       period: "Aug 2025",
       details: [
-        "More detail about the role and responsibilities comming soon.",
+        "More detail about the role and responsibilities coming soon.",
       ],
     },
     {
@@ -43,7 +45,8 @@ export default function ExperiencePage() {
       period: "Oct 2023 - Aug 2024",
       details: [
         "Volunteered 86 hours managing check-ins and distributing groceries, improving service efficiency by 50%.",
-        "The streamlined registration process reduces customers' wait time by 50%.",
+        "Provided customer service and distributing warm meals, groceries, and household items to low-income families.",
+        "Support front of house with customer check-ins, streamlined registration process reduces customers' wait time by 50%.",
       ],
     },
   ]

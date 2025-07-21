@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card"
 
 export default function AboutPage() {
   const skills = {
-    "Programming Languages": ["Python", "C++", "Java", "Go", "JavaScript", "HTML", "CSS", "PostgreSQL", "MySQL"],
+    "Programming Languages": ["Python", "C++", "Java", "Swift", "Go", "JavaScript", "HTML", "CSS", "PostgreSQL", "MySQL"],
     "Frameworks and Tools": [
       "Node.js",
       "React",
