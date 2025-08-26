@@ -6,6 +6,22 @@ import { ExternalLink, Github } from "lucide-react"
 
 export default function ProjectsPage() {
   const projects = [
+    {
+      title: "MovieTix",
+      description:
+        "A movie ticket booking app developed with Swift and TMDB API, designed with Adobe Express.",
+      details: [
+        "This app allows users to browse movies, view details, and book tickets seamlessly.",
+        "Main Features: Movie browsing, Reservation and ticket history.",
+        "App inspired by a local movie theatre that need a mobile application for online ticket reservations.",
+        "Improved user experience with a simple design and good performance.",
+        "Design demonstrated with Adobe Express.",
+      ],
+      date: "July - August 2025",
+      github: "https://github.com/HungH206/Ios-101-Filmtix-project",
+      demo: "https://new.express.adobe.com/publishedV2/urn:aaid:sc:VA6C2:6bc9bfde-aae2-4222-865a-34edf9b60d67?promoid=Y69SGM5H&mv=other",
+      image: "/IOS101-1-Logo.png?height=100&width=100",
+    },
      {
       title: "CareConnect",
       description:

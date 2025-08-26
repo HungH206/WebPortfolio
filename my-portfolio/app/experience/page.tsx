@@ -30,7 +30,7 @@ export default function ExperiencePage() {
 
   const experience = [
     {
-      position: "Student Service Worker",
+      position: "Food Service Worker at Chick-fil-A",
       organization: "University Of Houston Dining Services",
       location: "Houston, TX",
       period: "Aug 2025",
