@@ -9,7 +9,7 @@ export default function ExperiencePage() {
       period: "Aug 2024 - May 2027",
       details: [
         "College of Natural Sciences and Mathematics",
-        "Relevant coursework: Intro to Programming (C++), Discrete Math, Data Structures and Algorithms with C++",
+        "Coursework: Intro to Programming (C++), Discrete Math, Data Structures, Algorithms, Computer Architecture, Database Systems",
         "Active member of Society of Hispanic Professional Engineers (SHPE) at UH and CodePath",
         "Participated in Hackathons: HackTX 24, HackRice 14, and Accelerated App Development With Github Copilot Hackathon",
       ],
@@ -21,7 +21,7 @@ export default function ExperiencePage() {
       period: "2022-2024",
       details: [
         "Department of Natural Sciences and Mathematics",
-        "Relevant coursework: Intro to Programming (Python), Computer Programming I and II (Java), Database Development (SQL)",
+        "Coursework: Intro to Programming (Python), Computer Programming I and II (Java), Database Development (SQL)",
         "Member of the Seattle Central's Computer Science Club, Phi Theta Kappa Honor Society, MESA.",
         "Participated in NSC Summer 2024 Hackathon and won 3rd place with Early Weather Detection System (EDWS) project.",
       ],
@@ -35,7 +35,10 @@ export default function ExperiencePage() {
       location: "Houston, TX",
       period: "Aug 2025",
       details: [
-        "More detail about the role and responsibilities coming soon.",
+        "Streamlined more than 1000 customer orders and food distribution, improved 50% service efficiency.",
+        "Provided excellent customer service in a fast-paced environment, and communication to ensure customer satisfaction and best food quality.",
+        "Maintained cleanliness and organization of the dining area, adhering to health and food safety standards.",
+        "Attention to detail in food packing, enhancing overall customer experience.",
       ],
     },
     {
