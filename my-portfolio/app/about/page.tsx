@@ -2,9 +2,10 @@ import { Card, CardContent } from "@/components/ui/card"
 
 export default function AboutPage() {
   const skills = {
-    "Programming Languages": ["Python", "C++", "Java", "Swift", "Go", "JavaScript", "HTML", "CSS", "PostgreSQL", "MySQL", "R"],
+    "Programming Languages": ["Python", "C++", "C#", "Java", "Swift", "Golang", "JavaScript", "HTML", "CSS", "PostgreSQL", "MySQL", "R"],
     "Frameworks and Tools": [
       "Node.js",
+      "Next.js",
       "React",
       "Flask",
       "FastAPI",
@@ -16,19 +17,29 @@ export default function AboutPage() {
       "Google Cloud",
       "Figma",
       "AWS",
+      "Linux",
+      ".NET",
+      "Kubernetes",
+      "Spring Framework",
     ],
     Technical: [
-      "OOP",
       "Data Structures",
       "Algorithms",
+      "Object-Oriented Programming",
       "Software Engineering",
+      "Computer Architecture",
+      "Database Systems",
+      "Web Development",
+      "APIs",
+      "Microservices",
       "Machine Learning",
-      "Prompt Engineering",
+      "Artificial Intelligence",
       "Data Analysis",
     ],
     Other: [
       "Customer Service",
       "Technical Writing",
+      "Project Management",
       "Microsoft Office",
       "Problem Solving",
       "Time Management",

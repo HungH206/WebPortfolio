@@ -15,21 +15,22 @@ export default function ProjectsPage() {
         "Main Features: Movie browsing, Reservation and ticket history.",
         "App inspired by a local movie theatre that need a mobile application for online ticket reservations.",
         "Improved user experience with a simple design and good performance.",
-        "Design demonstrated with Adobe Express.",
+        "Designs and Video Prototypes created with Adobe Express.",
       ],
       date: "July - August 2025",
       github: "https://github.com/HungH206/Ios-101-Filmtix-project",
       demo: "https://new.express.adobe.com/publishedV2/urn:aaid:sc:VA6C2:6bc9bfde-aae2-4222-865a-34edf9b60d67?promoid=Y69SGM5H&mv=other",
+      achievement: "Completed iOS 101 Course by CodePath",
       image: "/IOS101-1-Logo.png?height=100&width=100",
     },
      {
-      title: "CareConnect",
+      title: "CareConnect (Collaborated with Hao Pham)",
       description:
         "A healthcare IOT web app developed with AWS Bedrock with Pinecone Knowledge Base, Anthropic's Claude 3.5 Haiku Model, React, TypeScript, Python, Firebase, Zoom API and Vercel Web Host.",
       details: [
         "This healthcare platform aims to connect patients with their health provider, track health progress with AI Health Assistant Support, and easily schedule appointments.",
         "Main Features: AI Health Assistant with Claude 3.5 Haiku, Care Team Platform with Zoom Video Call and Twilio Message.",
-        "Other Features: Schedule visits for your appointments, report tracker with summarized detail, and IOT Health Vitals tracking.",
+        "Other Features implemented by Hao Pham: Schedule visits for your appointments, report tracker with summarized detail, and IOT Health Vitals tracking.",
         "Improve 70% connectivity for Zoom calls with 4G support, and 80% support for AI Health Assistance.",
       ],
       date: "May - June 2025",
@@ -53,7 +54,7 @@ export default function ProjectsPage() {
       image: "/studiwell.png?height=100&width=200",
     },
     {
-      title: "PixelPal",
+      title: "PixelPal (Collaborator)",
       description: "A gaming recommendation web app developed with Python, JavaScript, OpenAI API, Figma.",
       details: [
         "Collaborated in a team of four to compete in HackTX 24 at University of Texas at Austin.",
@@ -61,11 +62,11 @@ export default function ProjectsPage() {
       ],
       date: "November 2024",
       github: "https://github.com/HungH206/PixelPal",
-      demo: "#",
+      demo: "https://devpost.com/software/pixelpal-35o1x6",
       image: "/Pixelpal.png?height=100&width=200",
     },
     {
-      title: "HospiTalk",
+      title: "Hospitalk (Collaborator)",
       description:
         "A healthcare web app that focuses on prioritizing patient care with React, JavaScript, PostgreSQL, and Auth0.",
       details: [
@@ -74,7 +75,7 @@ export default function ProjectsPage() {
       ],
       date: "September 2024",
       github: "https://github.com/Izaan-Khalid/DoctorsOrders",
-      demo: "https://doctors-orders-eight.vercel.app/",
+      demo: "https://devpost.com/software/hospitalk-ncr3e6",
       image: "/Hospitalk.png?height=100&width=200",
     },
     {
