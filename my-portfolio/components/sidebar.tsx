@@ -2,56 +2,92 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Home, User, Folder, Briefcase, Award, MessageSquare } from "lucide-react"
+import { useState } from "react"
+import { Home, User, Folder, Briefcase, Award, MessageSquare, Menu, X } from "lucide-react"
+import { Button } from "@/components/ui/button"
 
 export default function Sidebar() {
   const pathname = usePathname()
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
 
   const isActive = (path: string) => {
     return pathname === path ? "bg-green-200/50 text-green-800" : "text-gray-600 hover:text-green-600"
   }
 
+  const toggleMobileMenu = () => {
+    setIsMobileMenuOpen(!isMobileMenuOpen)
+  }
+
+  const navigationItems = [
+    { href: "/", icon: Home, label: "Home" },
+    { href: "/about", icon: User, label: "About" },
+    { href: "/projects", icon: Folder, label: "Projects" },
+    { href: "/experience", icon: Briefcase, label: "Experience" },
+    { href: "/achievements", icon: Award, label: "Awards" },
+    { href: "/contact", icon: MessageSquare, label: "Contact" },
+  ]
+
   return (
-    <div className="w-full md:w-24 h-16 md:h-auto bg-[#f5e9c9] flex flex-row md:flex-col items-center justify-around md:justify-start md:py-8 md:space-y-8 shrink-0 border-r border-green-200/30">
-      <Link href="/" className={`p-2 md:p-3 hover:bg-green-100/50 rounded-lg transition-colors ${isActive("/")}`}>
-        <Home className="w-5 h-5 md:w-6 md:h-6" />
-        <span className="sr-only">Home</span>
-      </Link>
-      <Link
-        href="/about"
-        className={`p-2 md:p-3 hover:bg-green-100/50 rounded-lg transition-colors ${isActive("/about")}`}
-      >
-        <User className="w-5 h-5 md:w-6 md:h-6" />
-        <span className="sr-only">About</span>
-      </Link>
-      <Link
-        href="/projects"
-        className={`p-2 md:p-3 hover:bg-green-100/50 rounded-lg transition-colors ${isActive("/projects")}`}
-      >
-        <Folder className="w-5 h-5 md:w-6 md:h-6" />
-        <span className="sr-only">Projects</span>
-      </Link>
-      <Link
-        href="/experience"
-        className={`p-2 md:p-3 hover:bg-green-100/50 rounded-lg transition-colors ${isActive("/experience")}`}
-      >
-        <Briefcase className="w-5 h-5 md:w-6 md:h-6" />
-        <span className="sr-only">Experience</span>
-      </Link>
-      <Link
-        href="/achievements"
-        className={`p-2 md:p-3 hover:bg-green-100/50 rounded-lg transition-colors ${isActive("/achievements")}`}
-      >
-        <Award className="w-5 h-5 md:w-6 md:h-6" />
-        <span className="sr-only">Achievements</span>
-      </Link>
-      <Link
-        href="/contact"
-        className={`p-2 md:p-3 hover:bg-green-100/50 rounded-lg transition-colors ${isActive("/contact")}`}
-      >
-        <MessageSquare className="w-5 h-5 md:w-6 md:h-6" />
-        <span className="sr-only">Contact</span>
-      </Link>
-    </div>
+    <>
+      {/* Horizontal Navigation Bar */}
+      <nav className="w-full h-16 bg-[#f5e9c9] border-b border-green-200/30 flex items-center justify-between px-6 shrink-0">
+        {/* Logo/Brand */}
+        <div className="flex items-center">
+          <Link href="/" className="text-xl font-bold text-gray-800 hover:text-green-600 transition-colors">
+            Hung Hoang
+          </Link>
+        </div>
+
+        {/* Desktop Navigation */}
+        <div className="hidden md:flex items-center space-x-6">
+          {navigationItems.map((item) => {
+            const IconComponent = item.icon
+            return (
+              <Link
+                key={item.href}
+                href={item.href}
+                className={`flex items-center space-x-2 px-3 py-2 rounded-lg transition-colors ${isActive(item.href)}`}
+              >
+                <IconComponent className="w-5 h-5" />
+                <span>{item.label}</span>
+              </Link>
+            )
+          })}
+        </div>
+
+        {/* Mobile Menu Button */}
+        <Button
+          onClick={toggleMobileMenu}
+          variant="default"
+          className="md:hidden p-2 hover:bg-green-100/50 text-gray-600 hover:text-green-600"
+        >
+          {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+        </Button>
+      </nav>
+
+      {/* Mobile Menu Overlay */}
+      {isMobileMenuOpen && (
+        <div className="md:hidden fixed inset-0 z-50 bg-black/50" onClick={toggleMobileMenu}>
+          <div className="absolute top-16 left-0 right-0 bg-[#f5e9c9] border-b border-green-200/30 p-4">
+            <div className="flex flex-col space-y-2">
+              {navigationItems.map((item) => {
+                const IconComponent = item.icon
+                return (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    onClick={toggleMobileMenu}
+                    className={`flex items-center space-x-3 px-3 py-3 rounded-lg transition-colors ${isActive(item.href)}`}
+                  >
+                    <IconComponent className="w-5 h-5" />
+                    <span>{item.label}</span>
+                  </Link>
+                )
+              })}
+            </div>
+          </div>
+        </div>
+      )}
+    </>
   )
 }
