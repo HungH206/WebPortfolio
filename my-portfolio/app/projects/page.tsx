@@ -21,7 +21,7 @@ export default function ProjectsPage() {
       github: "https://github.com/HungH206/Ios-101-Filmtix-project",
       demo: "https://new.express.adobe.com/publishedV2/urn:aaid:sc:VA6C2:6bc9bfde-aae2-4222-865a-34edf9b60d67?promoid=Y69SGM5H&mv=other",
       achievement: "Completed iOS 101 Course by CodePath",
-      image: "/IOS101-1-Logo.png?height=100&width=100",
+      image: "/IOS101-1-Logo.png",
     },
      {
       title: "CareConnect (Collaborated with Hao Pham)",
@@ -36,7 +36,7 @@ export default function ProjectsPage() {
       date: "May - June 2025",
       github: "https://github.com/HungH206/CareConnectAI",
       demo: "https://care-connect-ai.vercel.app/",
-      image: "/Careconnect.png?height=100&width=200",
+      image: "/Careconnect.png",
     },
     {
       title: "StudiWell",
@@ -51,7 +51,7 @@ export default function ProjectsPage() {
       github: "https://github.com/HungH206/StudyWellAI-Project",
       demo: "https://studiwellaiauth0.web.app/",
       achievement: "Best Use of VS Code Extensions Award",
-      image: "/studiwell.png?height=100&width=200",
+      image: "/studiwell.png",
     },
     {
       title: "PixelPal (Collaborator)",
@@ -63,7 +63,7 @@ export default function ProjectsPage() {
       date: "November 2024",
       github: "https://github.com/HungH206/PixelPal",
       demo: "https://devpost.com/software/pixelpal-35o1x6",
-      image: "/Pixelpal.png?height=100&width=200",
+      image: "/Pixelpal.png",
     },
     {
       title: "Hospitalk (Collaborator)",
@@ -76,7 +76,7 @@ export default function ProjectsPage() {
       date: "September 2024",
       github: "https://github.com/Izaan-Khalid/DoctorsOrders",
       demo: "https://devpost.com/software/hospitalk-ncr3e6",
-      image: "/Hospitalk.png?height=100&width=200",
+      image: "/Hospitalk.png",
     },
     {
       title: "Early Weather Detection System",
@@ -89,7 +89,7 @@ export default function ProjectsPage() {
       github: "https://github.com/HungH206/EWDS",
       demo: "#",
       achievement: "3rd Place Winner at North Seattle College Summer 2024 Hackathon",
-      image: "/Codingaction.png?height=100&width=200",
+      image: "/Codingaction.png",
     },
   ]
 
@@ -100,7 +100,7 @@ export default function ProjectsPage() {
 
       <div className="mb-12">
         <p className="text-xl mb-6">
-          These are some of the projects I've worked on during my studies and personal time.
+          These are some of the projects I&apos;ve worked on during my studies and personal time.
         </p>
       </div>
 

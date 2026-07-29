@@ -54,15 +54,15 @@ export default function AboutPage() {
 
       <div className="mb-12">
         <p className="text-xl mb-6">
-          I'm Hung Gia Hoang, a Computer Science student at the University of Houston with a passion for software
+          I&apos;m Hung Gia Hoang, a Computer Science student at the University of Houston with a passion for software
           development, machine learning, and creating impactful applications.
         </p>
         <p className="text-xl mb-6">
-          Currently in my junior year, I'm focused on expanding my knowledge in various programming languages and
+          Currently in my junior year, I&apos;m focused on expanding my knowledge in various programming languages and
           frameworks while working on projects that solve real-world problems.
         </p>
         <p className="text-xl">
-          I'm also graduated with an Associate's Degree in Computer Science from Seattle Central College.
+          I&apos;m also graduated with an Associate&apos;s Degree in Computer Science from Seattle Central College.
         </p>
       </div>
 
