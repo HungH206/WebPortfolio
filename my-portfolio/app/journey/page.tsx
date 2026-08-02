@@ -143,34 +143,36 @@ export default function JourneyPage() {
           ))}
         </div>
 
-        <Card id="journey-note-template" className="mt-8 overflow-hidden">
-          <CardHeader className="bg-[#e8dbb8]">
-            <CardTitle>Journey Note Template</CardTitle>
-            <CardDescription className="text-black/70">
-              Add a new object to the journeyNotes list with these fields.
-            </CardDescription>
-          </CardHeader>
-          <CardContent className="pt-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
-              <div className="rounded-md border border-gray-200 p-4">
-                <span className="font-semibold">title</span>
-                <p className="mt-1 text-gray-700">Name of your reflection post.</p>
+        <div id="journey-note-template" className="mt-8 scroll-mt-20">
+          <Card className="overflow-hidden">
+            <CardHeader className="bg-[#e8dbb8]">
+              <CardTitle>Journey Note Template</CardTitle>
+              <CardDescription className="text-black/70">
+                Add a new object to the journeyNotes list with these fields.
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="pt-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                <div className="rounded-md border border-gray-200 p-4">
+                  <span className="font-semibold">title</span>
+                  <p className="mt-1 text-gray-700">Name of your reflection post.</p>
+                </div>
+                <div className="rounded-md border border-gray-200 p-4">
+                  <span className="font-semibold">paperTitle</span>
+                  <p className="mt-1 text-gray-700">Full title of the research paper.</p>
+                </div>
+                <div className="rounded-md border border-gray-200 p-4">
+                  <span className="font-semibold">authors</span>
+                  <p className="mt-1 text-gray-700">Names of the paper authors.</p>
+                </div>
+                <div className="rounded-md border border-gray-200 p-4">
+                  <span className="font-semibold">reflectionLink</span>
+                  <p className="mt-1 text-gray-700">URL to your article, blog post, or reflection page.</p>
+                </div>
               </div>
-              <div className="rounded-md border border-gray-200 p-4">
-                <span className="font-semibold">paperTitle</span>
-                <p className="mt-1 text-gray-700">Full title of the research paper.</p>
-              </div>
-              <div className="rounded-md border border-gray-200 p-4">
-                <span className="font-semibold">authors</span>
-                <p className="mt-1 text-gray-700">Names of the paper authors.</p>
-              </div>
-              <div className="rounded-md border border-gray-200 p-4">
-                <span className="font-semibold">reflectionLink</span>
-                <p className="mt-1 text-gray-700">URL to your article, blog post, or reflection page.</p>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
+            </CardContent>
+          </Card>
+        </div>
       </section>
     </div>
   )
