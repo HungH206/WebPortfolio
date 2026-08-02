@@ -30,6 +30,25 @@ export default function ExperiencePage() {
 
   const experience = [
     {
+      position: "Software Engineer Intern",
+      organization: "Resilient Privacy Inc.",
+      location: "Remote",
+      period: "Aug 2026 - Present",
+      details: [
+        "Incoming SWE Intern - Backend for Fall 2026.",
+      ],
+    },
+    {
+      position: "Undergraduate Student Researcher",
+      organization: "University of Houston College of Natural Sciences and Mathematics",
+      location: "Houston, TX · Hybrid",
+      period: "Feb 2026 - May 2026",
+      details: [
+        "Develop software quality and software patch solutions with mentors and researchers at PaSS Lab to improve software quality in production.",
+        "Conduct software quality research by leveraging Large Language Models (LLMs) to automate bug detection and security vulnerability identification.",
+      ],
+    },
+    {
       position: "Food Service Worker at Chick-fil-A",
       organization: "University Of Houston Dining Services",
       location: "Houston, TX",
