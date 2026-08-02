@@ -3,7 +3,7 @@
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { useState } from "react"
-import { Home, User, Folder, Briefcase, Award, MessageSquare, Menu, X } from "lucide-react"
+import { Home, User, Folder, Briefcase, Award, MessageSquare, Menu, X, BookOpenText } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export default function Sidebar() {
@@ -23,6 +23,7 @@ export default function Sidebar() {
     { href: "/about", icon: User, label: "About" },
     { href: "/projects", icon: Folder, label: "Projects" },
     { href: "/experience", icon: Briefcase, label: "Experience" },
+    { href: "/journey", icon: BookOpenText, label: "Journey" },
     { href: "/achievements", icon: Award, label: "Awards" },
     { href: "/contact", icon: MessageSquare, label: "Contact" },
   ]
@@ -39,7 +40,7 @@ export default function Sidebar() {
         </div>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center space-x-6">
+        <div className="hidden md:flex items-center space-x-2 lg:space-x-4">
           {navigationItems.map((item) => {
             const IconComponent = item.icon
             return (
